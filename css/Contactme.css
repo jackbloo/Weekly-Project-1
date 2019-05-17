@@ -62,10 +62,21 @@ nav {
     background-color: #0003;
     margin-left: 400px;
     margin-right: 400px;
-    height: 200px;  
+    height: 250px;  
 }
 form {
     font-family: 'Work Sans', sans-serif;
+}
+button {
+    background-color: #0004;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+ border-radius: 6px;
+ font-family: 'Work Sans', sans-serif;
+ margin-top: 10px;
 }
 label {
     margin-top:20px;
