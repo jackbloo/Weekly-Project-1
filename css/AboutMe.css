@@ -54,15 +54,25 @@ nav {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);    
 }
 
+.container .box{
+    top: 100px;
+    background-color: #0002;
+    margin-left: 50px;
+    position: relative;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
 .container .isi {
 position: relative;
 float: right;
-right: 350px; 
+right: 250px; 
 top: 130px;
 }
 .container .isi img {
     height: 200px;
     width: 200px;
+    box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
 }
 
 .container .content {
@@ -110,6 +120,9 @@ top: 130px;
     padding-bottom: 20px;
     font-size: 12px;
 }
+#puter h4:hover {
+    color: white;
+}
 #puter .middle h5 {
     color:#0009;
     font-family: 'Work Sans', sans-serif;
@@ -122,6 +135,9 @@ top: 130px;
    width: 200px;
    margin: 0 auto;
 }
+#puter .middle h5:hover {
+color: white;
+ }
 #puter a {
     float: left;
     color: #0009;
