@@ -61,8 +61,22 @@ nav {
 .isi h3 {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
 }
 .isi .btnwrp button {
+    background-color: #0004;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border-radius: 6px;
+ font-family: 'Work Sans', sans-serif;
+ margin-top: 10px;
+  }
+  .isi .btnwrp button:hover {
     background-color: #0009;
     border: none;
     color: white;
@@ -79,25 +93,11 @@ nav {
   .isi .btnwrp {
       text-align: center;
       position: relative;
-      float: right;
-      top: 350px;
-      left: 120px;
+      top: 200px;
+      left: 10px;
   }
-.isi .foto img {
-    height: 250px;
-    width: 350px;
-    border-radius: 20%;
-    box-shadow: 10px 10px 5px #0009;
-   
-}
 
-.isi .foto {
-    float: right;
-    position: relative;
-    right: 200px;
-    top: 65px;
    
-}
 #puter {
     background-color: #0002;
     height: 50px;
@@ -114,18 +114,28 @@ nav {
     padding-bottom: 20px;
     font-size: 12px;
 }
+#puter .middle h5 {
+    color:#0009;
+    font-family: Poppins;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+#puter .middle {
+   height: 200px;
+   width: 200px;
+   margin: 0 auto;
+}
 #puter a {
-    display: inline-block;
     float: left;
     color: #0009;
     padding: 0;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left:30px;
   }
 
   #puter a:hover {
     display: inline-block;
-    float: left;
     color: white;
     padding: 0;
     margin-top: 25px;
