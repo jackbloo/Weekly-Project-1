@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    background-image: url("https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1335&q=80");
+    background-size: cover;
+    background-position: center;
+}
+nav img {
+    left: 100px;
+    position: absolute;
+    height: 50px;
+}
+nav h1 {
+    left: 40px;
+    position: absolute;
+    font-family: 'Arvo', serif;
+    color: #0009;
+}
+
+.nav-link .text-container ul li,a, .nav-text{
+    position: relative;
+    display: inline;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0009;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    top: 2px;
+
+}
+.nav-link .text-container ul li:hover,a:hover, .nav-text:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0002;
+    height: 70px;
+    position: fixed;
+    width:100%;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.isi {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 100px;
+    
+    
+}
+.isi h3 {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+.isi .btnwrp button {
+    background-color: #0009;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border-radius: 6px;
+ font-family: 'Work Sans', sans-serif;
+ margin-top: 5px;
+  }
+
+  .isi .btnwrp {
+      text-align: center;
+      position: relative;
+      float: right;
+      top: 350px;
+      left: 120px;
+  }
+.isi .foto img {
+    height: 250px;
+    width: 350px;
+    border-radius: 20%;
+    box-shadow: 10px 10px 5px #0009;
+   
+}
+
+.isi .foto {
+    float: right;
+    position: relative;
+    right: 200px;
+    top: 65px;
+   
+}
+#puter {
+    background-color: #0002;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+#puter h4 {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    color:#0009;
+    font-family: Poppins;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+#puter a {
+    display: inline-block;
+    float: left;
+    color: #0009;
+    padding: 0;
+    margin-top: 25px;
+    margin-left:30px;
+  }
+
+  #puter a:hover {
+    display: inline-block;
+    float: left;
+    color: white;
+    padding: 0;
+    margin-top: 25px;
+    margin-left:30px;
+  }
+
